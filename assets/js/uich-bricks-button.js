@@ -219,11 +219,11 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // AJAX request
             currentAjaxCall = jQuery.ajax({
-                url: uich_ajax_object_data.ajax_url,
+                url: uichemy_ajax_object.ajax_url,
                 method: "POST",
                 data: {
-                    nonce: uich_ajax_object_data.nonce,
-                    action: "uich_bricks_import_media",
+                    nonce: uichemy_ajax_object.nonce,
+                    action: "bricks_import_media",
                     inputData: inputData
                 },
             })
